@@ -1,18 +1,12 @@
-# opencv-geometric-transforms
-# OpenCV 几何变换演示
+# OpenCV Geometric Transforms
 
-一个使用 OpenCV 实现的交互式几何变换演示程序，支持多种图像变换操作。另外，附加虚拟广告牌程序
+A modular, well-structured Python package for performing advanced geometric image transformations using OpenCV. This project is designed for clarity, ease of use, and extensibility, making it ideal for computer vision projects, and image processing tasks.
 
-## 几何变换程序的功能特性
+## ✨ Features
 
-- 🔄 **缩放变换** - 支持水平和垂直方向独立缩放
-- 🔁 **旋转变换** - 可自定义旋转中心和角度
-- ➡️ **平移变换** - 支持任意方向平移
-- 🔍 **透视变换** - 实现3D透视效果
-- 🎯 **单应性变换** - 通用的平面到平面映射
+*   **Modular Design**: The codebase is organized into separate, focused modules for core transformations, utilities, and specific applications like advertisement insertion.
+*   **Comprehensive Transforms**: Includes a variety of geometric transformations such as Affine, Perspective, Rotation, Scaling, and Shearing.
+*   **Practical Application**: Features a dedicated module for seamlessly inserting advertisements into images or video streams using perspective-aware techniques.
+*   **Easy to Use**: Clean and simple API for quick integration into your projects.
+*   **Well-Documented**: Code is thoroughly commented for understanding and customization.
 
-## 安装要求
-opencv
-numpy
-matplotlib
-### 使用 pip (推荐)
